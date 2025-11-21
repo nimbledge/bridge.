@@ -10,7 +10,7 @@ const iconPath = (filePath: string) =>
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: '/',
+	base: '/bridge./',
 	server: {
 		strictPort: true,
 		port: 8080,
